@@ -1,0 +1,1184 @@
+body {
+    margin: 0;
+  }
+  
+  
+  
+  footer {
+    margin: 0;
+  }
+  
+  /*below is css for topnav bar
+  */
+  
+  
+  #header-img {
+    height:40px;
+   margin-left:-25px;
+     padding-top: 7px;
+  }
+  
+  
+  
+  input[type=text] {
+    width: 270%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('https://res.cloudinary.com/dozfyovi7/image/upload/v1587946510/LogoMakr_4y1YQb_xf6ekc.png');
+    background-size: 50px 23px;
+    background-position: 630px 11px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+  }
+  
+   input[type=text]:hover{
+   box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.15);
+  }
+  
+  .button {
+    background-color: #4682B4;
+     border: none;
+    padding: 7px;
+    border-radius: 5px;
+  }
+  
+  .button2 {
+    background-color: #4682B4;
+     border: none;
+    
+    padding-top:2px;
+    padding-bottom: 2px;
+    margin-left: 190px
+   
+  }
+  
+  .button:hover {
+    background-color:  #4E8ABC
+  }
+  
+  .topnav2 a {
+    font-family: 'Noto Sans TC', sans-serif;
+     text-decoration: none;
+     color: black;
+    
+  }
+  
+  
+  
+   .left {
+    display: inline;
+     float: left;
+     padding: 15px;
+     
+  }
+  
+  
+  .right {
+    display: inline;
+     float: right;
+    padding: 15px;
+    color: red;
+    padding-top: 20px;
+    
+     
+  }
+  
+  .right i  {
+    font-size: 20px; 
+  }
+  
+  #circle {
+    height: 45px;
+    right: 130px;
+    top:26px;
+    opacity: 0.0;
+    position:absolute; 
+  }
+  
+  #circle:hover {
+     opacity: 0.1;
+  }
+  
+  .topnav2 ul li font {
+    padding: 15px
+  }
+  
+  form {
+    padding-top: -3px;
+    padding-left: 30px
+  }
+  
+  /*below is css for navbar under search box
+  */
+  .nav2 {
+    width: 100%;
+   /*background-color: #F08080; */
+    overflow: auto;
+      border-bottom: 1px solid lightgrey;
+    
+  }
+  
+  .nav2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   }
+  
+   .left2 {
+    display: inline;
+     float: left;
+     padding: 15px;
+     
+  }
+  
+  .right2 {
+    display: inline;
+     float: right;
+    padding: 15px;
+    
+  }
+  
+  .hidden {
+    visibility: hidden;
+  }
+  
+  
+  .left2 i {
+    padding: 3px;
+  }
+  
+  .nav2 .left2 .blue {
+    color: #4682B4;
+  }
+  
+  .nav2 a {
+    text-decoration: none;
+    color: #505050;
+    font-family: 'Noto Sans TC', sans-serif;
+      kl: 400;
+     font-size: 14px;
+  }
+  
+  .fa-tag {
+    color: #696969;
+  }
+  
+  .fa-newspaper {
+    color: #696969;
+  }
+  
+  .fa-map-marker-alt {
+    color: #696969;
+  }
+  
+  .fa-youtube {
+    color: #696969;
+  }
+  
+  .fa-ellipsis-v {
+    color: #696969;
+  }
+  
+  .fa-th {
+    color: #505050
+  }
+  
+  
+  .little-box {
+      background-color: #4682B4;
+    width: 67px;
+    height:4px;
+    margin-top: 48px;
+    margin-left: 200px;
+    
+  }
+  
+  .result-number {
+        background-color: white;
+     color: #696969;
+     font-family: 'Noto Sans TC', sans-serif;
+      font-weight: 400;
+     font-size: 15px;
+      padding-left:218px;
+      padding-top:9px;
+  }
+  
+  #ad-circle {
+    height: 3px;
+    margin-bottom: 3px;
+    margin-left:1px;
+    margin-right: 1px;
+  }
+  
+  #url-triangle {
+    height: 4px;
+    margin-bottom: 2px;
+  }
+  
+  #bold-ad {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight:600;
+    color:black;
+  }
+  
+  #url-grey {
+     color: black;
+     font-family: 'Noto Sans TC', sans-serif;
+    font-size:15px;
+  }
+  
+  #url-bar {
+    padding-left: 218px;
+    padding-top: 25px;
+  }
+  
+  #url-bar-a {
+     text-decoration: none;
+  }
+  
+  .build-wix-url {
+    padding-left: 218px;
+  }
+  
+  .first-box-header {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 23px;  
+  }
+  
+  
+  .first-box-header-a {
+    text-decoration: none;
+  }
+  
+  .first-box-header-a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  #first-paragraph {
+     font-family: 'Noto Sans TC', sans-serif;
+      color: #505050;
+    
+    
+  }
+  
+  #first-paragraph-div {
+    padding-left: 218px;
+    margin-right: 1085px;
+  }
+  
+  .first-paragraph-bold-text {
+   color: #696969;
+     font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 900;
+  }
+  
+  /*Below is the css for the four links under "Build Your Own Webpage - wix.com" */
+  
+  
+  #second-box-header-a-left {
+    text-decoration: none;
+  }
+  
+  #second-box-header-a-left:hover {
+    text-decoration: underline;
+  }
+  
+  
+  #second-box-header-a-right {
+    text-decoration: none;
+  }
+  
+  #second-box-header-a-right:hover {
+    text-decoration: underline;
+  }
+  
+  #second-box-header-b-left {
+    text-decoration: none;
+  }
+  
+  #second-box-header-b-left:hover {
+    text-decoration: underline;
+  }
+  
+  
+  #second-box-header-b-right {
+    text-decoration: none;
+  }
+  
+  #second-box-header-b-right:hover {
+    text-decoration: underline;
+  }
+  
+  #second-header1 {
+    padding-left:241px;
+    padding-top:15px;
+    
+  }
+  
+  #second-header2 {
+    padding-left:241px;
+    padding-top:16px;
+  }
+  #second-box-header-a-left {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 23px;
+  }
+  #second-box-header-b-left {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 23px;
+  }
+  
+  
+  #second-box-header-a-right {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 23px;
+    padding-left: 77px;
+  }
+  
+  #second-box-header-b-right {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 23px;
+    padding-left: 77px;
+  }
+  
+  #second-paragraph-1a-div {
+    padding-left: 241px;
+    font-family: 'Noto Sans TC', sans-serif;
+     color: #505050;
+  }
+  
+  
+  #second-paragraph-1a-right {
+    padding-left: 89px;
+  }
+  
+  #second-paragraph-1b-div {
+    padding-left: 241px;
+    font-family: 'Noto Sans TC', sans-serif;
+     color: #505050;
+  }
+  
+  #second-paragraph-1b-right {
+    padding-left: 54px;
+  }
+  #second-paragraph-1b-right2 {
+    padding-left: 58px;
+  }
+  #second-paragraph-1b-right3 {
+    padding-left: 123px;
+  }
+  
+  /*Above is the css for the four links under "Build Your Own Webpage - wix.com" */
+  
+  /*Below is the css for the Box that says "TO CREATE A WEBSITE WITH WORDPRESS..." */
+  
+  #inner-div1 {
+    padding-left:19px;
+    padding-right: 30px;
+    padding-top: 14px;
+  }
+  .box {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 218px;
+    margin-right: 980px;
+    margin-top: 33px;
+  }
+  
+  #box1-p {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 17px;
+  }
+  
+  #box1-p-fancy {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  #box1-p-bold {
+    font-weight: 600;
+  }
+  
+  .box1-p-bold2 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 600;
+  }
+  
+  #url-bar2 {
+    padding-top: 17px;
+    padding-left:19px;
+    background-color: white;
+  }
+  
+  #url-grey2 {
+    color: #505050;
+     font-family: 'Noto Sans TC', sans-serif;
+    font-size:15px;
+  }
+  #url-grey2-black {
+    color: black;
+     font-family: 'Noto Sans TC', sans-serif;
+    font-size:15px;
+  }
+  
+  .grey-right-arrow {
+    height: 8px;
+    margin-left: 3px
+  }
+  
+  #url-triangle2 {
+    height: 4px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+  }
+  
+  .url-triangle {
+    height: 4px;
+    margin-bottom: 2px;
+  }
+  
+  #header2 {
+    padding-left: 19px;
+    padding-bottom: 15px;
+      
+  }
+  
+  /*Below is the css for the grey text under Box that says "TO CREATE A WEBSITE WITH WORDPRESS..." */
+  
+  #little-grey-text {
+    background-color:white;
+    padding-top: 3px;
+  }
+  
+  
+  #url-grey3 {
+    color: #505050;
+     font-family: 'Noto Sans TC', sans-serif;
+    font-size:13px;
+    padding-left: 6px;
+    padding-right: 25px;
+    
+    
+  }
+  
+  #url-grey4 {
+    color: #505050;
+     font-family: 'Noto Sans TC', sans-serif;
+    font-size:13px;
+    padding-left: 6px;
+    
+   
+  }
+  
+  .little-text-b {
+    text-decoration: none;
+    color: #505050;
+    
+  }
+  
+  .little-text-a {
+    text-decoration: none;
+    color: #505050;
+    display: inline-block;
+    
+  }
+  
+  .little-text-a:hover {
+     color: #505050;
+    text-decoration: underline;
+  }
+  
+  #little-grey-question {
+  height: 14px;
+    
+    position:relative;
+    top:1px;
+  }
+  
+  #little-grey-text {
+    margin-left: 623px;
+  }
+  
+  #little-grey-text2 {
+    margin-left: 848px;
+  }
+  
+  #little-exclamation {
+    height: 14px;
+    position:relative;
+    top:1px;
+    
+  }
+  
+  /*Above is the css for the grey text under Box that says "TO CREATE A WEBSITE WITH WORDPRESS..." */
+  
+  
+  /*Below is css for divs under box where it says "build this webpage - Github Pages" */
+  
+  #div-box1 {
+    background-color: white;
+    margin-top: 33px;
+    margin-left: 218px;
+  }
+  
+  .url-grey-div {
+     color: #505050;
+     font-family: 'Noto Sans TC', sans-serif;
+    font-size:15px;
+    margin-top: 25px;
+    
+  }
+  
+  .url-bar-1 {
+     text-decoration: none;
+    margin-top: 33px; /*for distance on top */
+  }
+  
+  /*below is the second div */
+  
+  
+  .url-grey3-black {
+    color: black;
+     font-family: 'Noto Sans TC', sans-serif;
+    font-size:15px;
+    
+  }
+  
+  
+  
+  #first-paragraphb {
+     font-family: 'Poppins', sans-serif;
+     color: #505050;
+  }
+  
+  #first-paragraph-div {
+    padding-left: 218px;
+    margin-right: 1085px;
+  }
+  
+  .first-paragraph-boldb {
+   color: #696969;
+    font-weight: 700;
+  }
+  
+  .first-paragraph-boldb2 {
+   color: #696969;
+     font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 900;
+  }
+  
+  .first-paragraph-second {
+    color: #505050;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  /* Below is the next div that says "With zero coding experience..." */
+  
+  #div-box2 {
+    background-color: white;
+    margin-top: 35px;
+    margin-left: 218px;
+  }
+  /* Above is the next div that says "With zero coding experience" */
+  
+  /*Below is the css div box that contains "People also ask"-------------------------- */
+  #upper {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 22px;
+  }
+  .middle {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 17px;
+      
+  }
+  
+  #inner-div2 {
+     padding-left:19px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+  }
+  
+  #inner-div2-middle {
+     padding-left:19px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .a-box {
+    text-decoration: none;
+    color:black;
+  }
+  
+  .a-box:visited {
+    color: black;
+  }
+  
+  #grey-down-arrow1 {
+    height: 8px;
+    margin-left: 353px;
+  }
+  
+  
+  #grey-down-arrow2 {
+    height: 8px;
+    margin-left: 304px;
+  }
+  
+  #grey-down-arrow3 {
+    height: 8px;
+    margin-left: 368px;
+  }
+  
+  #grey-down-arrow4 {
+    height: 8px;
+    margin-left: 314px;
+  }
+  
+  .url-grey-div2 {
+     color: #696969;
+     font-family: 'Noto Sans TC', sans-serif;
+    font-size:15px;
+    margin-top: 25px;
+  }
+  
+  /* Css for link #8 */
+  
+  #url-bar3 {
+    padding-left: 218px;
+    padding-top: 25px;
+  }
+  
+  /*Below is the css for the box with the youtube videos */
+  
+  .flex-container {
+    display: flex;
+    background-color: white;
+    padding-left: 208px;
+    padding-right: 965px;
+    
+  }
+  
+  .flex-container > .inner {
+    background-color: white;
+    height: 334px;
+    margin: 10px;
+    width: 220px;
+    font-size: 25px;
+    border-radius: 5px;
+     border: 1px solid #ccc;
+    position: relative;
+      
+  }
+  
+  
+  
+  .box-triple {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 218px;
+    margin-right: 1465px;
+    margin-top: 35px;
+    
+    
+  }
+  
+  .box-triple2 {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #inner-div3 {
+  
+    padding-right: 30px;
+    
+  }
+  
+  .blank-a {
+    outline: none; 
+  }
+  
+  .img-triple {
+    height: 135px;
+    width: 220px;
+      border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    
+    
+  }
+  
+  #black-button {
+    color: white;
+    background-color: black;
+      opacity: 0.8;
+  }
+  
+  
+  .blue-boxy {
+    margin-top: 300px;
+    
+    
+  }
+  
+  .first-box-header2 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 17px;
+   
+    
+  }
+  
+  
+  .first-box-header-a2 {
+    text-decoration: none;
+    
+    
+   
+  }
+  
+  .first-box-header-a2:hover {
+    text-decoration: underline;
+   
+  }
+  
+  .boxy1 {
+      padding-left:19px;
+    padding-right: 10px;
+    
+   
+    padding-top: 10px;
+  }
+  
+  .boxy2 {
+      padding-left:19px;
+   
+    padding-top: 29px;
+  }
+  
+  .boxy3 {
+      
+    padding-left: 19px;
+    padding-right: 20px;
+    
+    
+  }
+  
+  #video-text {
+    margin-left: 218px;
+    margin-top:48px;
+  }
+  
+  #hover-circle {
+   margin-top: 160px;
+    margin-left: 690px;
+    padding-top:5px;
+    position: absolute;
+    
+  }
+  
+  
+  
+  
+  
+  #hover-circle-a {
+    outline:none;
+  }
+  
+  #hover-circle-a2 {
+    outline:none;
+  }
+  
+  
+  .hover-circle {
+   box-shadow: 0 6px 8px rgba(0, 0, 0, .2);
+        border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+    border:01px solid #ccc;
+    
+    
+   
+  }
+  
+  
+  
+  .hover-circle2 {
+    margin-right: 15px;
+    opacity: 0;
+  }
+  
+  .hover-circle2:hover {
+    margin-right:15px;
+    opacity: 1;
+  }
+  
+  
+  /* Below is Css for the box with all the company logos */
+  #upper2 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    color: #505050;
+  }
+  
+  #upper3 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 22px;
+    
+  }
+  
+  #upper4 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 17px;
+    color: #505050;
+    
+  }
+  
+  #inner-div3 {
+     padding-left:19px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+  }
+  
+  #inner-div4 {
+     padding-left:19px;
+    padding-right: 30px;
+   
+  }
+  
+  #inner-div5 {
+    margin-left: 580px;
+    margin-top: -20px;
+    margin-right: 10px;
+  }
+  
+  #inner-div6 {
+   margin-left: -20px;
+  }
+  
+  #inner-div6 li {
+    display: inline;
+    padding-right:16px;
+   
+  }
+  
+  #inner-div7 {
+    margin-left: -17px;
+  }
+  
+  #inner-div7 li {
+    display:inline;
+    font-size: 15px;
+    padding-right: 10px;
+  }
+  
+  
+  #no-line {
+    text-decoration: none;
+  }
+  
+  #no-line:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .flex-container2 {
+    display: flex;
+    margin-left: 14px;
+    background-color: white;
+    margin-top: 9px;
+    margin-bottom: 30px;
+    
+    
+  }
+  
+  .flex-container2 > .inner2 {
+    background-color: #f1f1f1;
+    margin:9px;
+   
+      background-color: white;
+    height: 100px;
+    width: 77px;
+    font-size: 25px;
+     border: 1px solid white;
+    position: relative;
+  }
+  
+  #company1-span {
+    font-size: 14px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  #company1 {
+    margin-top: -11px;
+  
+    margin-left:3px;
+  }
+  
+  #company1-weebly {
+    margin-top: -11px;
+  
+    margin-left:3px;
+  }
+  
+  
+  #company1-2 {
+    margin-top: -14px;
+    margin-left:3px;
+  }
+  
+  .blank-a2 {
+    outline:none;
+    color:black;
+  }
+  
+  .company-a {
+    text-decoration: none;
+    color:black;
+    outline:none;
+  }
+  
+  .company-a:hover {
+    text-decoration: underline;
+  }
+  
+  #related-search-imgs {
+    height: 80px;
+    width: 80px;
+  }
+  
+  #related-search-imgs2 {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    height: 40px;
+    width: 90px;
+  }
+  /*Above is the css for the company logos section */
+  
+  /*Below is the section for the with the links and "Searches related..." */
+  
+  
+  #video-text2 {
+    margin-left: 218px;
+    margin-top:40px;
+  }
+  table, td, th {  
+    border: 1px solid white;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 820px;
+  }
+  
+  th, td {
+   padding: 3px;
+      font-size: 15px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  
+  #table-links {
+    margin-left: 218px;
+    margin-top: 10px;
+  }
+  
+  .table-a {
+    text-decoration: none;
+      font-weight: bold;
+  }
+  
+  .table-a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* below is css for the Goooooogle image with page numbers */
+  
+  .flex-container3{
+    display: flex;
+    margin-left: 14px;
+    background-color: white;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left:430px;
+    
+    
+  }
+  
+  .flex-container3> .inner3{
+    background-color: #f1f1f1;
+    
+   
+      background-color: white;
+   
+    font-size: 25px;
+     border: 1px solid white;
+    position: relative;
+  }
+  
+  #related-search-imgs-v2 {
+    height: 35px;
+    width: 43px;
+    
+  }
+  
+  #related-search-imgs-v2-go {
+    
+    height: 35px;
+    width: 43px;
+    
+  }
+  
+  #related-search-imgs-v2-gle {
+    height: 35px;
+    width: 43px;
+    margin-left:-3px;
+    padding-bottom: 23px;
+  }
+  
+  #related-search-imgs-blue {
+    height: 13px;
+    width: 10px;
+    margin-left: 15px;
+    
+  }
+  
+  #related-search-imgs-o {
+    height: 36px;
+    width: 17px;
+    
+  }
+  
+  .company-a2 {
+    text-decoration: none;
+    outline:none;
+    margin-left: 1px;
+    color:dodgerblue
+  }
+  
+  .company-a2:hover {
+    text-decoration: underline;
+   
+    outline:none;
+  }
+  
+  .company-a2 {
+    text-decoration: none;
+    outline:none;
+  }
+  
+  
+  
+  #company1-v2 {
+    margin-top: -10px;
+  
+    margin-left:32px;
+  }
+  
+  #company1 {
+    margin-left: 6px;
+    
+  }
+  
+  #company2 {
+    margin-left: 6px;
+    
+  }
+  
+  #company1-weebly {
+    margin-left: 7px;
+  }
+  
+  /*Below is the css for bottomnav */
+  
+  .bottomnav {
+      overflow: hidden;
+    background-color: #ECECEC;
+    position: fixed-bottom;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #ad-circle2 {
+    height: 10px;
+    margin-bottom: 1px;
+    margin-left:1px;
+    margin-right: 1px;
+  }
+  #url-grey-bold {
+     color: black;
+     font-family: 'Noto Sans TC', sans-serif;
+    font-size:15px;
+    font-weight:600;
+  }
+  
+  .url-grey-div3 {
+     color: #505050;
+     font-family: 'Noto Sans TC', sans-serif;
+    font-size:15px;
+    margin-top: 25px;
+  }
+  
+  .url-grey-div3:hover {
+    color: black;
+  }
+  
+  
+  
+  .url-bar-a2 {
+    text-decoration: none;
+    
+  }
+  
+  .url-bar-a2:hover {
+    color: orange;
+    
+  }
+  #url-bar-bottomnav {
+    padding-left: 218px;
+    
+  }
+  
+  .bottomnav a {
+    text-decoration: none;
+     font-family: 'Noto Sans TC', sans-serif;
+     color: #505050;
+    font-size: 15px;
+  }
+  
+  
+  
+  
+   .left-bottomnav {
+    display: inline;
+     float: left;
+     margin-right: 30px;
+     
+  }
+  
+  .bottomnav-part2 {
+    margin-left: 181px;
+  }
+  
+  .bottomnav-part2 a:hover {
+    color: black;
+  }
+  
+  
+  
+  
+  
+  
